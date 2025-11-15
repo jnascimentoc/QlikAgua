@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 { title: "Sistema Ribeirão das Lajes", subtitle: "1940", text: "Para suprir o crescimento da capital, foi construído o sistema de Ribeirão das Lajes. A primeira adutora ficou pronta em 1940." },
                 { title: "ETA Laranjal", subtitle: "1954", text: "Para atender ao Leste Metropolitano (Niterói e São Gonçalo), é inaugurada a ETA do Laranjal, interligada ao sistema de captação de água bruta no Canal de Imunana." },
                 { title: "ETA Guandu", subtitle: "1955", text: "A transposição das águas dos rios Paraíba do Sul e Piraí possibilita a inauguração da primeira etapa da ETA do Guandu, que viria a ser uma das maiores do mundo." },
-                { title: "Elevatória do Lameirão", subtitle: "1966", text: "Entrou em operação como a maior estação subterrânea do mundo, com as estruturas hidráulicas a 64 metros abaixo do nível do terreno." },
+                { title: "Elevatória do Lameirão", subtitle: "1966", text: "Entrou em operation como a maior estação subterrânea do mundo, com as estruturas hidráulicas a 64 metros abaixo do nível do terreno." },
                 { title: "Fundação da CEDAE", subtitle: "1975", text: "A CEDAE foi criada em 1975, ano da fusão entre os estados da Guanabara e do Rio de Janeiro. Nasceu da união de três empresas: Cedag, Esag e Sanerj." },
                 { title: "Programa Replantando Vida", subtitle: "2001", text: "A Cedae lança o programa unindo preservação ambiental e ressocialização de apenados do sistema prisional estadual." },
                 { title: "Recorde Mundial", subtitle: "2007", text: "A ETA Guandu entra no Guinness Book (O Livro dos Recordes) como a maior estação de tratamento de água do mundo em produção contínua." },
@@ -99,7 +99,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 { question: "Qual produto NÃO deve ser jogado na pia ou vaso sanitário?", options: ["Água com sabão", "Restos de comida", "Óleo de cozinha", "Nenhum dos anteriores"], answer: 2, feedback: "O óleo entope tubulações e contamina rios. O correto é armazenar e encaminhar para pontos de coleta." },
                 { question: "Qual é o papel da CEDAE nesse processo?", options: ["Cuidar apenas das represas", "Produzir, tratar e fornecer água potável", "Vender água engarrafada", "Fazer propaganda do governo"], answer: 1, feedback: "A CEDAE é responsável pela produção e tratamento da água no Estado do Rio, garantindo qualidade e segurança hídrica." },
                 { question: "Qual atitude ajuda a preservar os mananciais (rios e nascentes)?", options: ["Jogar lixo nas margens", "Plantar árvores e evitar desmatamento", "Lavar o carro dentro do rio", "Descartar produtos químicos na terra"], answer: 1, feedback: "A vegetação protege o solo e evita a contaminação das fontes de água." },
-                { question: "O que fazer quando perceber um vazamento?", options: ["Consertar o mais rápido possível", "Deixar para depois", "Colocar um balde embaixo", "Ignorar"], answer: 0, feedback: "Cada gota conta! Um pequeno vazamento pode desperdiçar até 46 litros por dia. Observe, conserte e economize!" }
+                { question: "O que fazer quando perceber um vazamento?", options: ["Deixar para depois", "Consertar o mais rápido possível", "Colocar um balde embaixo", "Ignorar"], answer: 0, feedback: "Cada gota conta! Um pequeno vazamento pode desperdiçar até 46 litros por dia. Observe, conserte e economize!" }
             ]
         }
     };
@@ -335,7 +335,7 @@ document.addEventListener('DOMContentLoaded', () => {
             ${headerHtml}
             <div class="welcome-layout">
                 <div class="welcome-card">
-                    <h2>Bem-Vindo ao QlikÁgua</h2>
+                    <h2>Bem-Vindo ao ClickÁgua</h2>
                     <p>Explore a história da Companhia de Águas e Esgostos do Estado do Rio de Janeiro e teste seus conhecimentos sobre água</p>
                     
                     <div class="learn-box">
@@ -512,5 +512,3 @@ document.addEventListener('DOMContentLoaded', () => {
 
     render();
 });
-
-
