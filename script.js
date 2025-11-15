@@ -99,7 +99,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 { question: "Qual produto NÃO deve ser jogado na pia ou vaso sanitário?", options: ["Água com sabão", "Restos de comida", "Óleo de cozinha", "Nenhum dos anteriores"], answer: 2, feedback: "O óleo entope tubulações e contamina rios. O correto é armazenar e encaminhar para pontos de coleta." },
                 { question: "Qual é o papel da CEDAE nesse processo?", options: ["Cuidar apenas das represas", "Produzir, tratar e fornecer água potável", "Vender água engarrafada", "Fazer propaganda do governo"], answer: 1, feedback: "A CEDAE é responsável pela produção e tratamento da água no Estado do Rio, garantindo qualidade e segurança hídrica." },
                 { question: "Qual atitude ajuda a preservar os mananciais (rios e nascentes)?", options: ["Jogar lixo nas margens", "Plantar árvores e evitar desmatamento", "Lavar o carro dentro do rio", "Descartar produtos químicos na terra"], answer: 1, feedback: "A vegetação protege o solo e evita a contaminação das fontes de água." },
-                { question: "O que fazer quando perceber um vazamento?", options: ["Deixar para depois", "Consertar o mais rápido possível", "Colocar um balde embaixo", "Ignorar"], answer: 0, feedback: "Cada gota conta! Um pequeno vazamento pode desperdiçar até 46 litros por dia. Observe, conserte e economize!" }
+                { question: "O que fazer quando perceber um vazamento?", options: ["Consertar o mais rápido possível", "Deixar para depois", "Colocar um balde embaixo", "Ignorar"], answer: 0, feedback: "Cada gota conta! Um pequeno vazamento pode desperdiçar até 46 litros por dia. Observe, conserte e economize!" }
             ]
         }
     };
@@ -512,4 +512,5 @@ document.addEventListener('DOMContentLoaded', () => {
 
     render();
 });
+
 
